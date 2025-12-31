@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const ThemeContext = createContext()
 
 
-const ThemeProvider = ({children}) => {
+const ThemeProvider = ({children}:any) => {
     
     const [theme,setTheme] = useState('light')  // light is default
 

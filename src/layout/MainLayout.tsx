@@ -7,7 +7,7 @@ import TotalEmp from '../components/TotalEmp'
 import { ThemeContext } from '../context/ThemeContext'
 
 const MainLayout = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme }:any = useContext(ThemeContext)
 
   return (
     <>

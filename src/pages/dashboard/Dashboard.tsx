@@ -5,7 +5,7 @@ import Sidebar from "../../layout/Sidebar"
 import { ThemeContext } from "../../context/ThemeContext"
 
 const Dashboard = () => {
-  const {theme} = useContext(ThemeContext)
+  const {theme}:any = useContext(ThemeContext)
   return (
    <>
       <main className={`${theme === 'light' ? 'bg-white text-black' : 'bg-black text-white'} mx-0 flex justify-start items-start gap-2`}>

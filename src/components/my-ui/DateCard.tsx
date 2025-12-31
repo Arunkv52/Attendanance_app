@@ -21,7 +21,7 @@ const DateCard = ({
   advancetext
 }: Datecarditem) => {
 
-const {theme} = useContext(ThemeContext)
+const {theme}:any = useContext(ThemeContext)
 
 
   return (

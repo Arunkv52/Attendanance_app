@@ -12,7 +12,7 @@ const Sidebar = () => {
 
     
   const [width, setWidth] = useState(true)
-  const { theme } = useContext(ThemeContext)
+  const { theme }:any = useContext(ThemeContext)
 
   return (
     <>

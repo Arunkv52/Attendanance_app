@@ -9,7 +9,7 @@ interface StateCardProps {
 }
 
 const StatCard = ({ count, icon, title, description }: StateCardProps) => {
-  const { theme } = useContext(ThemeContext)
+  const { theme }:any = useContext(ThemeContext)
 
   return (
     <>
