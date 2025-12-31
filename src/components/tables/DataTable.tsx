@@ -1,5 +1,3 @@
-import React from 'react'
-import { DropDownFilter } from './DropDownFilter'
 import ColumnData from './DataSets'
 
 const DataTable = () => {
