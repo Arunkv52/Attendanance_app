@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2345124",
+    "employeeName": "Arun",
+    "role": "UI Developer",
+    "department": "IT Department",
+    "date": "26.12.2025",
+    "checkin": "9.30 AM",
+    "checkout": "6.30 PM",
+    "workhours": "9.30 hrs",
+    "status" : "Absent"
+  },
+  {
+    "id": "2345124",
+    "employeeName": "Pradeep",
+    "role": "UI Developer",
+    "department": "IT Department",
+    "date": "26.12.2025",
+    "checkin": "9.30 AM",
+    "checkout": "6.30 PM",
+    "workhours": "9.30 hrs",
+    "status" : "Present"
+  }
+]
