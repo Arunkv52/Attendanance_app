@@ -20,8 +20,8 @@ const Login = () => {
   }
 
   interface User {
-    username: string
-    password: string
+    username: any
+    password: any
   }
 
   // React hook form
