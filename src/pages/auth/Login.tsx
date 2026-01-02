@@ -19,6 +19,11 @@ const Login = () => {
     signuppassword: any
   }
 
+  interface User {
+    username: string
+    password: string
+  }
+
   // React hook form
   const { register, handleSubmit, reset } = useForm<logindata>()
 
@@ -26,9 +31,9 @@ const Login = () => {
     const { userName, password } = inputData
     reset() // clears all inputs
 
-    // Username and
-    const isUserValid = userData.find(
-      item => item.username === userName && item.password === password
+    // Username and pwd
+    const isUserValid = userData.some(
+      (item: User) => item.username === userName && item.password === password
     )
 
     if (isUserValid) {
@@ -56,8 +61,6 @@ const Login = () => {
   }, [])
 
   const [userData, setUserData] = useState([])
-
-  
 
   return (
     <>
@@ -91,7 +94,6 @@ const Login = () => {
                   <label htmlFor='password'>Password</label>
                   <input
                     type='password'
-                    
                     id='password'
                     placeholder='Enter your password'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'
@@ -131,7 +133,10 @@ const Login = () => {
 
           <div>
             <p className='text-sm text-center flex justify-center items-center gap-1'>
-              Don't have an account? <Link to={'/signup'} className='underline'>Signup</Link>
+              Don't have an account?{' '}
+              <Link to={'/signup'} className='underline'>
+                Signup
+              </Link>
             </p>
           </div>
         </div>
