@@ -4,13 +4,10 @@
     "paths": {
       "@/*": ["src/*"]
     },
-
     "jsx": "react-jsx",
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-
-    "skipLibCheck": true
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["src"]
 }
+
