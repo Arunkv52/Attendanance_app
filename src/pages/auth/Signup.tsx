@@ -58,7 +58,6 @@ const Signup = () => {
                   <label htmlFor='useremail'>Enter Email Address</label>
                   <input
                     type='email'
-                    name='useremail'
                     id='useremail'
                     placeholder='admin@gmail.com'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'
@@ -73,7 +72,7 @@ const Signup = () => {
                   <label htmlFor='signupuser'>Username</label>
                   <input
                     type='text'
-                    name='signupuser'
+                   
                     id='name'
                     placeholder='Admin'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'
@@ -88,7 +87,7 @@ const Signup = () => {
                   <label htmlFor='signuppassword'>Password</label>
                   <input
                     type='password'
-                    name='signuppassword'
+                    
                     id='password'
                     placeholder='Enter your password'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'

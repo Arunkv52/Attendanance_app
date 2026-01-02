@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import Logo from '@/assets/logo/hdverse-logo.png'
+import Logo from '../assets/logo//hdverse-logo.png'
 import UserLogin from './UserLogin'
 import { IoSunnyOutline, IoSunny } from 'react-icons/io5'
 import { ThemeContext } from '../context/ThemeContext'

@@ -77,11 +77,10 @@ const Login = () => {
                   <label htmlFor='username'>Username</label>
                   <input
                     type='text'
-                    name='userName'
                     id='userName'
                     placeholder='Admin'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'
-                    {...register('userName', {
+                    {...register('username', {
                       required: true,
                       maxLength: 10
                     })}
@@ -92,7 +91,7 @@ const Login = () => {
                   <label htmlFor='password'>Password</label>
                   <input
                     type='password'
-                    name='password'
+                    
                     id='password'
                     placeholder='Enter your password'
                     className='bg-[#212121] outline-0 py-3 px-4 rounded-xl border border-gray-200 hover:shadow-xs w-full text-sm'
