@@ -59,6 +59,7 @@ const Login = () => {
       navigate('/dashboard')
     } else {
       alert('Invalid username or password')
+      reset()
     }
   }
 
