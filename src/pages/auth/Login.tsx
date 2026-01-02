@@ -6,6 +6,8 @@ import { useForm } from 'react-hook-form'
 import { Link, useNavigate } from 'react-router'
 
 const Login = () => {
+  // Redirect to url
+  const navigate = useNavigate()
   // For Login to view
   // "username": "snyder",
   // "password": "f238&@*$",
@@ -24,28 +26,6 @@ const Login = () => {
     password: any
   }
 
-  // React hook form
-  const { register, handleSubmit, reset } = useForm<logindata>()
-
-  const onSubmit = (inputData: any) => {
-    const { userName, password } = inputData
-    reset() // clears all inputs
-
-    // Username and pwd
-    const isUserValid = userData.some(
-      (item: User) => item.username === userName && item.password === password
-    )
-
-    if (isUserValid) {
-      navigate('/dashboard')
-    } else {
-      alert('Invalid username or password')
-    }
-  }
-
-  // Redirect to url
-  const navigate = useNavigate()
-
   // User loggin
   useEffect(() => {
     const fetchUsers = async () => {
@@ -61,6 +41,26 @@ const Login = () => {
   }, [])
 
   const [userData, setUserData] = useState([])
+
+  // React hook form
+  const { register, handleSubmit, reset } = useForm<logindata>()
+
+  // Function call for on submit
+  const onSubmit = (data: any) => {
+    const { username, password } = data
+
+    const isUserValid = userData.find(
+      (item: User) => item.username === username && item.password === password
+    )
+
+    if (isUserValid) {
+      console.log('Login Successful')
+      reset()
+      navigate('/dashboard')
+    } else {
+      alert('Invalid username or password')
+    }
+  }
 
   return (
     <>
