@@ -16,7 +16,7 @@ const StatCard = ({ count, icon, title, description }: StateCardProps) => {
       <div
         className={`${
           theme === 'light' ? 'bg-white text-black' : 'bg-[#171717] text-white'
-        }pr-10 pl-5 py-5 rounded-xl shadow-2xl`}
+        } pr-5 pl-5 py-5 rounded-xl shadow-2xl`}
       >
         <div className='flex justify-between item-center gap-0'>
           <h1 className='text-5xl font-bold'>{count}</h1>

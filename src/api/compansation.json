@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "date": "2026-01-10",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  },
+  {
+    "id": 2,
+    "date": "2026-01-24",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  },
+  {
+    "id": 3,
+    "date": "2026-04-11",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  },
+  {
+    "id": 4,
+    "date": "2026-05-09",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  },
+  {
+    "id": 5,
+    "date": "2026-10-10",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  },
+  {
+    "id": 6,
+    "date": "2026-11-14",
+    "day": "Saturday",
+    "isWorkingDay": true,
+    "reason": "Holiday Compensation",
+    "applicableTo": "All"
+  }
+]

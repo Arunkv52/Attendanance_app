@@ -54,15 +54,17 @@ const Login = () => {
     )
 
     if (isUserValid) {
-      console.log('Login Successful')
       reset()
       navigate('/dashboard')
+      // ✅ store username in localStorage
+      sessionStorage.setItem('users',isUserValid)
     } else {
       reset()
       alert('Invalid username or password')
-      
     }
   }
+
+
 
   return (
     <>

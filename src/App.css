@@ -44,3 +44,16 @@ body {
   left: 100%;
   margin-left: 10px;
 }
+
+
+/* Holidays page css */
+span.ag-header-cell-text {
+    font-size: 17px;
+}
+.ag-row {
+    background-color: var(--ag-data-background-color);
+    border-bottom: var(--ag-row-border);
+    height: var(--ag-row-height);
+    width: 100%;
+    font-size: 15px;
+}

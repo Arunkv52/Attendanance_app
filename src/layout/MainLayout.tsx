@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { AttendanceCompare } from '../components/charts/AttendanceCompare'
 import { WeeklyAttendance } from '../components/charts/WeeklyAttendance'
 import DateComponent from '../components/DateComponent'
-import DataTable from '../components/tables/DataTable'
+import DataTable from '../components/tables/dashboard/DataTable'
 import TotalEmp from '../components/TotalEmp'
 import { ThemeContext } from '../context/ThemeContext'
 

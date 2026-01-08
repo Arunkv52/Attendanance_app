@@ -4,8 +4,8 @@ import Dashboard from '../pages/dashboard/Dashboard'
 import Signup from '../pages/auth/Signup'
 import Login from '../pages/auth/Login'
 import ThemeProvider from '../context/ThemeContext'
-import Settings from '../pages/settings/Settings'
 import User from '../pages/users/User'
+import Holidays from '../pages/holidays/Holidays'
 
 const RoutePath = () => {
   return (
@@ -16,7 +16,7 @@ const RoutePath = () => {
           <Route path='/signup' element={<Signup />} />
           <Route path='/login' element={<Login />} />
           <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/settings' element={<Settings />} />
+         <Route path='/holidays' element={<Holidays />}/>
           <Route path='/user' element={<User/>}/>
         </Routes>
       </BrowserRouter>

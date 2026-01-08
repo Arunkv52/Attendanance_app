@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "holidayName": "New Year's Day",
+    "startDate": "2026-01-01",
+    "endDate": "2026-01-01",
+    "type": "National Day",
+    "numberOfDays": 1,
+    "isWorkingDay": false
+  },
+  {
+    "id": 2,
+    "holidayName": "Pongal",
+    "startDate": "2026-01-15",
+    "endDate": "2026-01-18",
+    "type": "Festival",
+    "numberOfDays": 4,
+    "isWorkingDay": true
+  },
+  {
+    "id": 3,
+    "holidayName": "Republic Day",
+    "startDate": "2026-01-24",
+    "endDate": "2026-01-26",
+    "type": "National",
+    "numberOfDays": 3,
+    "isWorkingDay": false
+  },
+  {
+    "id": 4,
+    "holidayName": "Tamil New Year",
+    "startDate": "2026-04-13",
+    "endDate": "2026-04-14",
+    "type": "Festival",
+    "numberOfDays": 2,
+    "isWorkingDay": false
+  },
+  {
+    "id": 5,
+    "holidayName": "May Day",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-02",
+    "type": "National",
+    "numberOfDays": 2,
+    "isWorkingDay": false
+  },
+  {
+    "id": 6,
+    "holidayName": "Independence Day",
+    "startDate": "2026-08-15",
+    "endDate": "2026-08-15",
+    "type": "National",
+    "numberOfDays": 1,
+    "isWorkingDay": false
+  },
+  {
+    "id": 7,
+    "holidayName": "Gandhi Jayanti",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "type": "National",
+    "numberOfDays": 2,
+    "isWorkingDay": false
+  },
+  {
+    "id": 8,
+    "holidayName": "Ayudha Pooja",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "type": "Festival",
+    "numberOfDays": 1,
+    "isWorkingDay": false
+  },
+  {
+    "id": 9,
+    "holidayName": "Diwali",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "type": "Festival",
+    "numberOfDays": 2,
+    "isWorkingDay": false
+  }
+]

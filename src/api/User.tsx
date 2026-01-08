@@ -12,38 +12,38 @@ export const UserDetails = [
 
 export const AttendanceData = [
   {
-    count: 442,
+    count: 20,
     icon: <FaRegUser />,
     title: 'Total Employees',
     description: '+2 Employees newly added'
   },
   {
-    count: 360,
+    count: 18,
     icon: <FaRegUser />,
-    title: 'ON Time',
+    title: 'Present Today',
     description: '-10 Less than Yesterday'
   }, {
-    count: 442,
+    count: 2,
     icon: <FaRegUser />,
-    title: 'Total Employees',
+    title: 'Absent Today',
     description: '+2 Employees newly added'
   },
   {
-    count: 360,
+    count: 3,
     icon: <FaRegUser />,
-    title: 'ON Time',
+    title: 'Late Arrivals',
     description: '-10 Less than Yesterday'
   },
     {
-    count: 442,
+    count: 0,
     icon: <FaRegUser />,
-    title: 'Total Employees',
+    title: 'Work From Home',
     description: '+2 Employees newly added'
   },
   {
-    count: 360,
+    count: 2,
     icon: <FaRegUser />,
-    title: 'ON Time',
+    title: 'ON Duty',
     description: '-10 Less than Yesterday'
   }
 ]

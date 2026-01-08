@@ -4,6 +4,7 @@ import { MdDashboard } from 'react-icons/md'
 import { FiUser } from 'react-icons/fi'
 import { IoSettingsOutline } from 'react-icons/io5'
 import { FiLogOut } from 'react-icons/fi'
+import { FiCalendar } from "react-icons/fi";
 
 
 
@@ -42,9 +43,9 @@ export const MenuIconsRow2 = [
 
 export const MenuIconsRow3 = [
   {
-    title: 'Settings',
-    icon: <IoSettingsOutline />,
-    link: '/settings'
+    title: 'Holidays',
+    icon: <FiCalendar />,
+    link: '/holidays'
   },
   {
     title: 'Logout',

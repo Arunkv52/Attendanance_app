@@ -14,14 +14,14 @@ import {
 import {  ChevronDown, } from 'lucide-react'
 import { PiArrowsDownUp } from 'react-icons/pi'
 
-import { Button } from '../ui/button'
+import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuTrigger
-} from '../ui/dropdown-menu'
-import { Input } from '../ui/input'
+} from '@/components/ui/dropdown-menu'
+import { Input } from '@/components/ui/input'
 import {
   Table,
   TableBody,
@@ -29,8 +29,8 @@ import {
   TableHead,
   TableHeader,
   TableRow
-} from '../ui/table'
-import data from '../../api/attandanancedata.json'
+} from '@/components/ui/table'
+import data from '@/api/attandanancedata.json'
 
 export interface dataTypes {
   id: string

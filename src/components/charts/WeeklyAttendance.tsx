@@ -24,7 +24,7 @@ import { chartData } from "../../api/User"
 
 const chartConfig = {
   desktop: {
-    label: "Employee Present",
+    label: "Employee Absents",
     color: "var(--chart-3)",
   },
 } satisfies ChartConfig
@@ -35,7 +35,7 @@ export function WeeklyAttendance() {
         <div className="py-5">
 
       <CardHeader>
-        <CardTitle className="text-2xl">Monthlywise Attendance</CardTitle>
+        <CardTitle className="text-2xl">Monthlywise Absent </CardTitle>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
@@ -58,7 +58,7 @@ export function WeeklyAttendance() {
               cursor={false}
               content={<ChartTooltipContent hideLabel />}
             />
-            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={8}>
+            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={5}>
               <LabelList
                 position="top"
                 offset={12}
